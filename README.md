@@ -1,5 +1,3 @@
-[Git sourcefor f39 baseline](https://github.com/containers/toolbox/blob/main/images/fedora/f39/Containerfile)
-
 # Private toolbox containers
 
 ## Why?
@@ -66,3 +64,6 @@ sudo toolbox enter banana
 10. You are now using your personalized container uploaded to quay.io.
 
 Au revoir!
+[Git source 1](https://github.com/jlebon/pet)
+[Git source 2](https://github.com/jbtrystram/toolbox/tree/main)
+[Git source 3](https://github.com/containers/toolbox/blob/main/images/fedora/f39/Containerfile)
