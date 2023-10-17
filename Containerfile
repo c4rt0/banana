@@ -12,6 +12,8 @@ RUN dnf -y check-update
 
 COPY extra-packages /
 
-RUN dnf -y install $(<extra-packages)
-RUN dnf -y install code
+RUN dnf -y install $(<extra-packages) code
+
+RUN export PATH=$PATH:/usr/local/go/bin
+
 RUN dnf clean all

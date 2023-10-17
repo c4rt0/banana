@@ -1,5 +1,7 @@
 git
-zsh
-vim
-sl
+go
 qemu-system-x86.x86_64
+podman
+sl
+vim
+zsh

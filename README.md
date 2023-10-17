@@ -8,7 +8,7 @@ Docs can be extensive, this repo shrinks all of the info to bare minimum.
 
 1. Fork and clone this repo
 
-2. Modify contents of `extra-packages` to yoiur liking
+2. Modify contents of `extra-packages` to your liking
 
 3. From within the directory run (change the path):
 ```
@@ -32,7 +32,7 @@ Password: <password>
 Email: <email>
 ```
 6. Display the freshly created container ID:
-`sudo docker ps -al`
+`sudo podman ps -al`
 
 ```
 CONTAINER ID        IMAGE               COMMAND             CREATED
@@ -52,7 +52,7 @@ CONTAINER ID  IMAGE                    COMMAND               CREATED         STA
 `sudo podman commit 13848a803328 quay.io/apiaseck/banana`
 
 8. Push changes to quay.io:
-`sudo docker push quay.io/apiaseck/banana`
+`sudo podman push quay.io/apiaseck/banana`
 
 9. Once your image is uploaded, create it now locally:
 
