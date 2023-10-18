@@ -3,5 +3,6 @@ go
 qemu-system-x86.x86_64
 podman
 sl
+tmux
 vim
 zsh
